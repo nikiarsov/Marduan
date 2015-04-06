@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>AddressBar.qml</file>
+        <file>images/reload.png</file>
+        <file>Welcome.qml</file>
+        <file>images/button-menu-blue.jpg</file>
+        <file>images/button-menu-blue.png</file>
+        <file>NButton.qml</file>
+    </qresource>
+</RCC>
