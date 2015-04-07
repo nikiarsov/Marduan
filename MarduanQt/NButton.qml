@@ -59,7 +59,7 @@ Rectangle{
             anchors.fill: button
             onEntered: { button.state='Hovering'}
             onExited: { button.state=''}
-            onClicked: { goToPage("http://192.168.3.4:7777/?action=games" )}
+            onClicked: { goToPage("/?action=games" )}
             onPressed: { button.state="Pressed" }
             onReleased: {
                 if (containsMouse)
