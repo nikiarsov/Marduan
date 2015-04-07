@@ -1,5 +1,5 @@
 import QtQuick 2.0
-
+import "https://raw.githubusercontent.com/nikiarsov/Marduan/master/MarduanQt/" as Master
 Rectangle {
     signal goToPage(string page)
     property int wi: 140
@@ -11,13 +11,7 @@ Rectangle {
     color: "#aed2f3"
     height: 800
     width: 800
-    //    Text {
-    //        id: txt
-    //        text: qsTr("Welcome")
-    //        anchors.centerIn: parent
-    //        width: parent.width
-    //        height: parent.height
-    //    }
+
     Column{
         id: col
         width: 80
@@ -26,17 +20,17 @@ Rectangle {
         anchors.top: mainPage.top
         anchors.topMargin: 4
 
-        NButton{
+        Master.NButton{
             name: "Game"
             w: wi
             h: hi
         }
-        NButton{
+        Master.NButton{
             name: "News"
             w: wi
             h: hi
         }
-        NButton{
+        Master.NButton{
             name: "Music"
             w: wi
             h: hi
@@ -44,4 +38,3 @@ Rectangle {
 
     }
 }
-
